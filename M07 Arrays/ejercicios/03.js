@@ -8,6 +8,8 @@ function encontrarElemento(elemento, array) {
     }
   }
   return -1;
+
+  // return array.includes(elemento);
 }
 
 module.exports = encontrarElemento;

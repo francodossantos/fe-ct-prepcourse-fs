@@ -20,6 +20,21 @@ function breakStatement(num) {
      
     return "Se interrumpió la ejecución";
   }
+
+
+  // let nuevoArray=[];
+  //   let iterador=0;
+
+  //   while(iterador < 10){
+    //       num = num + 2;
+    //       if(num===iterador){
+      //           break;
+      //       }
+      //       iterador++
+  //       nuevoArray.push(num);
+  //   }
+  // if (iterador < 10) return "Se interrumpió la ejecución";
+  // return nuevoArray;
 }
 
 module.exports = breakStatement;

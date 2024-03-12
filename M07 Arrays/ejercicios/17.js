@@ -9,6 +9,19 @@ function tablaDelSeis() {
   }
   return resultados;
 
+  // var tabla=[];
+  // var multiplo=0;
+
+  // while(multiplo<=10){
+  //    var producto=6*multiplo;
+  //     tabla.push(producto);
+  //     multiplo++;
+  // }
+
+
+
+  // return tabla
+
 }
 
 module.exports = tablaDelSeis;

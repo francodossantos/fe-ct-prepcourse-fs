@@ -8,6 +8,9 @@ function promedioResultadosTest(resultadosTest) {
 
   });
   return promedioTotal / resultadosTest.length;
+
+  
+  
 }
 
 

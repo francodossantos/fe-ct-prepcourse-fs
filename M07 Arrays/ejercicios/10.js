@@ -3,7 +3,7 @@ function encontrarIndiceMayor(array) {
   // Devuelve el valor de este índice.
   // Tu código:
   if (array.length === 0) {
-    return -1;
+    return 0;
   }
 
   let numeroMasGrande = Math.max(...array);

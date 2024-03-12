@@ -5,17 +5,13 @@ function mesesDelAño(array) {
   // Tu código:
   let mesesPedidos = [];
 
-  for (let mes of array) {
-    if (mes === "Enero" || mes === "Marzo" || mes === "Noviembre") {
-      mesesPedidos.push(mes);
-    }
-    
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] === 'Enero' || array[i] === "Marzo" || array[i] === 'Noviembre') {
+      mesesPedidos.push(array[i]);
+     }
   }
-  if (mesesPedidos.length === 3) {
-    return mesesPedidos; 
-  } else {
-    return "No se encontraron los meses pedidos";
-  }
+  if (mesesPedidos.length === 3) return mesesPedidos;
+  else return "No se encontraron los meses pedidos";
 }
   
 

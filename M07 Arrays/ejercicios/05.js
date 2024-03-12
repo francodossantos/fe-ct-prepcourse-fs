@@ -1,12 +1,25 @@
 function obtenerPrimerStringLargo(array) {
   // Devuelve el primer string con más de 5 caracteres en el array.
   // Tu código:
-  for (primer of array) {
-    if (primer.length > 5) {
-      return primer;
+
+
+ 
+
+  for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === 'string' && array[i].length > 5) {
+      return array[i];
+      
     }
   }
-  return null;
+  return undefined; 
+
+
+  // for (primer of array) {
+  //   if (primer.length > 5) {
+  //     return primer;
+  //   }
+  // }
+  // return null;
 }
 
 module.exports = obtenerPrimerStringLargo;

@@ -3,7 +3,7 @@ function todosIguales(array) {
   // Caso contrario, retornar false.
   // Tu código:
   for (let i = 0; i < array.length; i++){
-    if (array[i] !== array[i + 1]) {
+    if (array[i] !== array[0]) {
       return false;
     }
   }
